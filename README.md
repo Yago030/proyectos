@@ -1,7 +1,2 @@
 # Repositorio2022
-Lo pidio la profe de la facu
-Mi primer repositorio
-
-Me gusta los sanwichitos de miga
-
-Soy de San Rafael
+Algunos de mis proyectos a medida que tomo cursos y aprendo de esto
