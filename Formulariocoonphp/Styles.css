@@ -1,0 +1,25 @@
+*{
+    padding: 8px;
+    margin: 0px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+  display: grid;
+    width: 400px;
+    height: auto;
+   
+    padding: 2rem;
+    background-color: gray;
+}
+
+input{
+    padding: 1rem;
+}
+
+
+
