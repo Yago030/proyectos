@@ -1,0 +1,12 @@
+
+
+.container{
+    overflow: auto;
+    display: flex;
+    scroll-snap-align: start;
+}
+
+.container .item {
+        flex-shrink: 0;
+        scroll-snap-align: start;
+}
