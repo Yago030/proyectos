@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,100;1,300&display=swap" rel="stylesheet"> 
+   
+    <title>BlogHunt_Code</title>
+</head>
+<body>
+    
+
+    <header class="header">
+        <div class="logo">
+          <a href="#" class="logoentrada"><img src="./img/logoHuntC.png" alt="Logo"></a>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="githubTeam.html">GithubTeam</a></li>
+            <!--<li><a href="#">Temas</a></li>-->
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+
+
+    <main class="contenedor">
+        
+
+        <h2 class="centrar-texto">Creando nuestra primera pagina HTML desde 0 </h2>
+        
+        <article class="Primero"> 
+            <h4>Herramientas</h4>
+        <p> Lo primero a tener en cuenta al momento de intentar crear una pagina html es tener instalado un editor de texto plano en su defecto   un <b>editor de codigo  </b><em> esta ultima siendo la mejor opción</em>. Aqui debajo te dejo un par de links para que utilices para descargar alguno de estos si aun lo tienes dependiendo de tu equipo: </p>
+
+           <ul>
+            <li>Sublime Text : Este es uno de los mas simples ,sobre todo si tienes una pc con windows 7 o poca capacidad ,puedes bajarlo haciendo <a href="https://www.sublimetext.com/ " target="_blank" ><b>aqui</b> </a></li>
+
+            <li>Brackets Editor : Alternativa a Visual Studio Code , bastante robusto. puedes bajarlo haciendo <a href="https://code.visualstudio.com/" target="_blank" ><b>aqui</b> </a></li>
+
+
+            <li>Visual Studio Code: El mas recomendando por el gran repertorio de plugins que tiene para ayudarte al momento de codear y sobre todo la comunidad de habla hispana que lo usa para poder buscar ayuda con algun problema. Puedes bajarlo haciendo <a href="https://brackets.io/" target="_blank" ><b>aqui</b> </a></li>
+
+        </article>
+            
+
+
+        <article class="Segundo" >
+            <h4>Primeros Pasos</h4>
+
+            <p>Una vez tenemos nuestro Editor de Codigo o texto plano, comenzamos creando una carpeta para guardar los archivos y donde comenzaremos con el desarrollo, en este ejemplo usare guardarlo en mi escritorio y usare como IDE Visual Studio Code. La seleccionamos haciendo click derecha sobre ella y elejimos el editor de codigo con la que empezaremos </p>
+            
+            <div class="capImg"> 
+              <img src="./img/Carpeta.png" alt="carpeta">
+              <img src="./img/Carpeta2.png" alt="carpeta2">
+
+            </div>
+          
+
+
+            <p>Luego simplemente hacemos click, en abrir con Visual, en este ejemplo, y nos aparecera la siguiente vista: 
+            </p>
+
+            <div class="capImg"> 
+            <img src="./img/carpeta3.png"   alt="Menu">
+            </div>
+            <p>Alli le damos click a <em><b>new File</em></b> lo que creara un archivo dentro de esa carpeta, quendado asi : </p>
+
+            <div class="capImg"> 
+            <img src ="img/carpeta4.png">
+            </div>
+
+
+            <p>Ahora bien, algo super importante a tener en cuenta, es que nuestro archivo principal o pagina principal como desees llamarle , si o si debe llamarse <b>index.html</b>, te preguntaras ¿Por qué ?.</p>
+            <p> Siempre que alguien busque tu sitio web, sin especificar una URL (direccion que copiamos cuando compartimos un link ) , google o el servidor seleccionado hara busqueda de tu pagina web haciendo uso de ese archivo <b>index</b></p>
+
+            <p>Una vez lo tenemos creado, podemos empezar con el codigo de nuestro preciado sitio web, haciendo uso de algunos atajos para escribirlo mas rapido, por ejempplo : </p>
+
+            <div class="capImg"> 
+            <img src="img/Carpeta5.png" alt="carpeta5">
+            </div>
+
+
+            <p>Con solo escribir <b>html</b> VSC (Visual Studio Code ) Automaticamente nos muestra algunas referencias, simplemente con las flechitas  del teclado bajamos hasta la resaltada en la imagen y al darle enter sucede la magia: </p>
+
+
+
+            <div class="capImg"> 
+            <img src="img/carpeta6.png" alt="carpeta6">
+            </div>
+
+
+        </article>
+
+
+        <article class="tercero">
+            <h4>Etiquetas Semanticas  y sus funciones</h4>
+            <p> Como muchos de nosotros ya conocemos las clases del <a href="https://www.youtube.com/@arielbetancud " target="_blank"> Profe Ariel  y Profe Nati </a> , donde nos explicaban como los codigos por ejemplo de Java o Python y como funcionaba el anidamiento de codigo, en HTML se puede decir que sucede algo similiar.</p>
+
+
+            <p> Cada etiqueta de HTML representa una parte específica de la página web, como el encabezado, el contenido principal, las imágenes, los enlaces, etc. Para indicar cómo se relacionan estas partes y organizar el contenido en la página, se utilizan etiquetas anidadas. Es decir, una etiqueta se coloca dentro de otra para definir la jerarquía y estructura de la página web.</p>
+
+            <p> Por ejemplo, la etiqueta <em>html </em> es la etiqueta principal que envuelve todas las demás etiquetas en la página web. Dentro de esta etiqueta, se encuentra la etiqueta  <em> head </em>  que contiene información de metadatos de la página, como el título y la descripción. Y dentro de la etiqueta <em>head </em> se encuentra la etiqueta <em> title</em> que define el título de la página.</p>
+
+
+            <div class="capImg"> 
+            <img src="img/carpeta7.jpeg" alt="imagen carpeta">
+            </div>
+
+
+            <p> A su vez, dentro de la etiqueta  <em>html</em> se encuentra la etiqueta  <em>body</em> que contiene todo el contenido visible de la página web, como el encabezado, el texto, las imágenes, los enlaces, etc. Dentro de la etiqueta <em>body </em> se pueden encontrar otras etiquetas como <em>header </em> para el encabezado de la página, <em> nav </em>para el menú de navegación, <em>main </em>  para el contenido principal, <em> footer</em>  para el pie de página, entre otras.</p>
+
+            <p> La organización adecuada de las etiquetas anidadas en HTML es fundamental para crear páginas web claras y bien estructuradas, lo que facilita la navegación y la comprensión de la información para los usuarios. Además, también permite aplicar estilos (Conocido como CSS para darle colores y funciones bonitas) y diseños específicos a cada sección de la página web de manera más sencilla.</p>
+
+
+        </article>
+
+        <article class="cuarto">
+        <h4> En resumen </h4>
+
+        <p>Es importante contarte algunos tips  al respecto para despejar algunas dudas que pueden surgirnos  : </p> 
+        
+         <ul>
+            <li><p>HTML no es un lenguaje de programación, como su siglas lo dicen ,  Hypertext Markup Language(Lenguaje de Marcado de Hipertexto, en español) </p></li>
+            <li>Es lo primero que debes aprender para empezar con tu pagina web si lo deseas hacer de codigo puro sin usar otros sistemas , como WordPress, Wix, entre otros</li>
+            <li>Puedes aprender de la mano de Youtube, Udemy, Edteam, y un sin fin de recursos GRATIS de internet </li>
+            <li>Podemos combinarlos con muchos lengaujes , SI, podemos combinarlos con Java , Python, MySQL , JavaScript , MongoDB, PostgreSql, es decir con todo lo que nos enseñaron los profes , incluso <b>PSEINT</b>..... Es broma, con esto ya no es necesario</li>
+            <li>Nunca Abandones, puede ser dificil tantos lenguajes, obligaciones o puedes sentirte agobiado. Pero solo es el comienzo compañeros, luego todo rindara frutos</li>
+         </ul> 
+
+
+         <div class="capImg"> 
+          <img src="img/logoHuntC.png" alt="logo" srcset="">
+         </div>
+
+            </article>  
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenido">
+          <div class="footer__logo">
+            <img src="./img/logoHuntC.png" alt="Logo">
+          </div>
+          <nav class="footer__nav">
+            <ul>
+              <li><a href="#">Acerca de nosotros</a></li>
+              <li><a href="#">Términos y condiciones</a></li>
+              <li><a href="#">Política de privacidad</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__derechos">
+          <p>Todos los derechos reservados &copy; 2023</p>
+        </div>
+      </footer>
+
+
+
+
+
+</body>
+</html>
