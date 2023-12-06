@@ -46,6 +46,10 @@
     }
     
     
+
+    .contenedor-infotur {
+        grid-template-columns: repeat(2, 1fr); /* Cambiar a una sola columna en pantallas pequeñas */
+      }
 }
 
 @media (min-width: 1140px) {/*laptoop*/

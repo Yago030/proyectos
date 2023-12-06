@@ -1,0 +1,8 @@
+.hero-utilidades {
+    background-image: url(../src/radartormentas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    margin-bottom: 2rem;
+}
