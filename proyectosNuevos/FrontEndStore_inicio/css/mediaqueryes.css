@@ -1,0 +1,33 @@
+@media (min-width: 768px){
+    .grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    
+    .grafico--node{
+        grid-row:5/6;
+        grid-column: 2 /4;
+    }
+
+ 
+    .nosotros{
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 2rem;
+    }
+
+    .nosotros__imagen{
+        grid-column: 2/3;
+    }
+    .bloques{
+     
+        grid-template-columns: repeat(4,1fr);
+      
+    }
+    
+.camisa{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+}   
+    
+}
