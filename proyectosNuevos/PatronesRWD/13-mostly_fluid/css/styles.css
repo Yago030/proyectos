@@ -26,6 +26,7 @@ p {
     font-size: 2rem;
 }
 
+
 .entrada-blog a {
     display: inline-block;
     background-color: #2196F3;
@@ -37,3 +38,24 @@ p {
 }
 
 /** CODIGO AQUI **/
+
+
+    .contenedor{
+        max-width: 120rem;
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    @media (min-width: 768px){
+        .contenedor{
+            max-width: 80%  ;
+        }
+    }
+
+    @media (min-width: 992px){
+        .contenedor{
+            max-width:60% ;
+        }
+    }
+    img {
+        max-width: 100%;
+    }

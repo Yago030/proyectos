@@ -38,4 +38,15 @@ h1 {
     text-transform: uppercase;
 }
 
+img{
+    border-radius: 0.5rem;
+}
+
 /** CODIGO AQUI **/
+@media (min-width: 768px){
+    .dos-columnas-flex{
+        display: flex;
+        gap: 2rem;
+    } 
+
+}

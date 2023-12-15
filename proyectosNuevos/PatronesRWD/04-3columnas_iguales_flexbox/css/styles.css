@@ -39,3 +39,16 @@ h1 {
 }
 
 /** CODIGO AQUI **/
+
+
+@media (min-width: 768px){
+    
+      .tres-columnas{
+        display: flex;
+        gap:2rem;
+      }      
+
+      .entrada-blog{
+        
+      }
+}
