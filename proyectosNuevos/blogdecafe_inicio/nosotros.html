@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlogDeCafé</title>
 
-    <link rel="stylesheet" href="blogdecafe_inicio/css/normalize.css">
+   
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
 
+  
+    <link rel="preload" href="blogdecafe_inicio/css/normalize.css" as="style">
+    <link rel="stylesheet" href="blogdecafe_inicio/css/normalize.css">
+
+    <link rel="preload" href="blogdecafe_inicio/css/style.css" as="style">
     <link rel="stylesheet" href="blogdecafe_inicio/css/style.css">
 
+    <link rel="preload" href="./blogdecafe_inicio/img/blog1.jpg" as="image">
 
 </head>
 <body>
@@ -42,7 +48,7 @@
         <h3 class="centrar-texto">Sobre Nosotros</h3>
         <div class="sobre-nosotros">
             <div class="sobre-nosotros__imagen">
-                <img src="blogdecafe_inicio/img/nosotros.jpg" alt="imagen nosotros">
+                <img loading="lazy" src="blogdecafe_inicio/img/nosotros.jpg" alt="imagen nosotros">
             </div>
             <div class="sobre-nosotros__texto">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae quis, quibusdam doloribus libero laboriosam adipisci excepturi, veniam beatae magni ipsum exercitationem assumenda asperiores maxime explicabo, tempore quo! A, illum consequuntur!</p>

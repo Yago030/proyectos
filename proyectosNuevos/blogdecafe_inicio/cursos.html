@@ -5,14 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlogDeCafé</title>
 
-    <link rel="stylesheet" href="blogdecafe_inicio/css/normalize.css">
+    <!--PREFETCH -->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+    <!--PRELOAD -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
 
+   
+    <link rel="preload" href="blogdecafe_inicio/css/normalize.css" as="style">
+    <link rel="stylesheet" href="blogdecafe_inicio/css/normalize.css">
+
+    <link rel="preload" href="blogdecafe_inicio/css/style.css" as="style">
     <link rel="stylesheet" href="blogdecafe_inicio/css/style.css">
 
+    <link rel="preload" href="./blogdecafe_inicio/img/blog1.jpg" as="image">
 
 </head>
 <body>
@@ -44,7 +53,7 @@
       <div class="curso">
 
         <div class="curso__imagen">
-            <img src="blogdecafe_inicio/img/curso1.jpg" alt="curso 1">
+            <img  loading="lazy" src="blogdecafe_inicio/img/curso1.jpg" alt="curso 1">
         </div>
 
        <div class="curso__informacion">
@@ -62,7 +71,7 @@
     <div class="curso">
 
         <div class="curso__imagen">
-            <img src="blogdecafe_inicio/img/curso2.jpg" alt="curso 1">
+            <img  loading="lazy" src="blogdecafe_inicio/img/curso2.jpg" alt="curso 1">
         </div>
 
        <div class="curso__informacion">
@@ -80,7 +89,7 @@
     <div class="curso">
 
         <div class="curso__imagen">
-            <img src="blogdecafe_inicio/img/curso3.jpg" alt="curso 1">
+            <img  loading="lazy" src="blogdecafe_inicio/img/curso3.jpg" alt="curso 1">
         </div>
 
        <div class="curso__informacion">

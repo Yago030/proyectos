@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BlogDeCafé</title>
 
-    <link rel="stylesheet" href="blogdecafe_inicio/css/normalize.css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
 
+    
+    <link rel="preload" href="blogdecafe_inicio/css/normalize.css" as="style">
+    <link rel="stylesheet" href="blogdecafe_inicio/css/normalize.css">
+
+    <link rel="preload" href="blogdecafe_inicio/css/style.css" as="style">
     <link rel="stylesheet" href="blogdecafe_inicio/css/style.css">
 
+    <link rel="preload" href="./blogdecafe_inicio/img/blog1.jpg" as="image">
 
 </head>
 <body>
@@ -41,7 +47,7 @@
     <main class="contenedor">
       <h3 class="centrar-texto">Entrada Blog</h3>
       
-        <img src="blogdecafe_inicio/img/blog1.jpg" alt="">
+        <img loading="lazy" src="blogdecafe_inicio/img/blog1.jpg" alt="">
       
       <div class="entrada-blog__texto">
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores cupiditate, eveniet earum necessitatibus libero at consequuntur porro expedita blanditiis iste magnam delectus quis cumque eius mollitia provident cum a voluptates!</p>

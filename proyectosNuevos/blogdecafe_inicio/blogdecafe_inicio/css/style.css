@@ -62,6 +62,7 @@ h4{
 
 img{
     max-width: 100%;
+    height: auto;
 }
 
 /* utilidades */
@@ -79,6 +80,15 @@ img{
 }
 
 /* centrar texto*/
+ /* Esto con modernizer, primero la importamos
+.webp .header{
+    background-image: url("../img/banner.webp");    
+}
+
+.no-webp .header{
+    background-image: url("../img/banner.jpg");
+}
+ */
 
 .header{
     background-image: url("../img/banner.jpg");
@@ -166,10 +176,15 @@ img{
     font-size: 1.8rem;
     font-weight: 700;
     margin-bottom: 2rem;
+    border: none;
  }
  @media (min-width: 768px){
      .boton{
         display: inline-block;
+        
+     }
+     .boton:hover{
+        cursor: pointer;
      }
  }
 
@@ -295,5 +310,5 @@ img{
 
 
  .campo__field--textarea{
-    height: 20rem;
+    height: 15rem;
  }
