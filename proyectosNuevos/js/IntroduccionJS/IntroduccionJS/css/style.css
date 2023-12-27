@@ -31,3 +31,11 @@ p {
 .hashtag {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.contenido__div{
+     border: solid 4px #4b6cb7;
+     padding: 1rem;
+     border-bottom: solid 6px #005423;
+     border-bottom-left-radius: 20px;
+     border-top-right-radius: 20px;
+}
