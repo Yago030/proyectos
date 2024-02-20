@@ -1,0 +1,28 @@
+{
+    "empleados":[
+
+        {
+            "id": 1,
+            "nombre": "Santiago",
+            "puesto": "Programmer web"
+        },
+        {
+            "id": 2,
+            "nombre": "Sergio",
+            "puesto": "QA MANUAL"
+        },
+        {
+            "id": 3,
+            "nombre": "Rocio",
+            "puesto": "Project Manager "
+        },
+
+        {
+            "id": 4,
+            "nombre": "Romina",
+            "puesto": "Project qa "
+        }
+
+    ]
+
+}
